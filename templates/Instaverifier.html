@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Flask app</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+  </head><div class="form">
+    <body>
+      <header>
+        <div class="header">
+          <img src="{{url_for('static', filename='logo.png')}}" align="middle"  width="60" height="60">        </div>
+
+        <div class="Method1-page">
+          <form action = "http://localhost:5000/Result" method = "POST">
+            <form class="login-form">
+                <p class="message">Insert OTP Message Recieved </p>    
+                <input type="text" name="OTP" placeholder="Check your Instagram DMs for the One time Code"/>
+            <button>Verify Code</button>
+          </form>
+        </div>
+      </div>
+      </header>
+      <footer>
+      </footer>
+    </body>
+</html>
+

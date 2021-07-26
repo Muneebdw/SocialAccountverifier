@@ -1,0 +1,44 @@
+2021-07-27 02:48:33,856 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-07-27 02:48:33,856 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Muneeb\AppData\Roaming\Python\Python37\site-packages\instabot\bot\bot.py
+2021-07-27 02:48:40,746 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2021-07-27 02:48:41,505 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2021-07-27 02:48:42,325 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-07-27 02:48:43,120 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-07-27 02:48:43,882 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2021-07-27 02:48:46,506 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2021-07-27 02:48:46,506 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'bhalli_r07'!
+2021-07-27 02:48:46,507 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2021-07-27 02:48:47,494 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-07-27 02:48:48,447 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-07-27 02:48:49,345 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-99e11dc4853e84e0&token_hash=&custom_device_id=android-99e11dc4853e84e0&fetch_reason=token_expired returned response: <Response [200]>
+2021-07-27 02:48:50,430 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2021-07-27 02:48:51,431 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-07-27 02:48:52,964 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+2021-07-27 02:48:53,893 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+2021-07-27 02:48:55,936 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-07-27 02:48:59,491 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-07-27 02:49:00,996 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+2021-07-27 02:49:03,162 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+2021-07-27 02:49:04,085 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+2021-07-27 02:49:05,759 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+2021-07-27 02:49:06,692 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+2021-07-27 02:49:07,593 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+2021-07-27 02:49:08,965 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>
+2021-07-27 02:49:09,878 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [200]>
+2021-07-27 02:49:10,810 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [200]>
+2021-07-27 02:49:11,703 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
+2021-07-27 02:49:12,862 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/6874313734/info/ returned response: <Response [200]>
+2021-07-27 02:49:15,475 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2021-07-27 02:49:18,156 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+2021-07-27 02:49:19,196 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+2021-07-27 02:49:20,578 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=ad8e1b50-80df-4b0a-8475-ff75a3a9df2c&include_fixed_destinations=true returned response: <Response [200]>
+2021-07-27 02:49:21,484 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+2021-07-27 02:49:22,570 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+2021-07-27 02:49:22,571 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Muneeb\Desktop\Upwork\socialverifier/config/bhalli_r07.checkpoint
+2021-07-27 02:49:26,137 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Muneeb\Desktop\Upwork\socialverifier/config/bhalli_r07.checkpoint
+2021-07-27 02:49:29,890 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Muneeb\Desktop\Upwork\socialverifier/config/bhalli_r07.checkpoint
+2021-07-27 02:49:29,890 - instabot version: 0.117.0 (bot) - INFO - Total messages: 1/59
+2021-07-27 02:49:29,891 - instabot version: 0.117.0 (bot) - INFO - Total requests: 33
+2021-07-27 02:49:29,891 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Muneeb\Desktop\Upwork\socialverifier/config/bhalli_r07.checkpoint
+2021-07-27 02:49:29,891 - instabot version: 0.117.0 (bot) - INFO - Total messages: 1/59
+2021-07-27 02:49:29,891 - instabot version: 0.117.0 (bot) - INFO - Total requests: 33
