@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Flask app</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+  </head><div class="form">
+    <body>
+      <header>
+        <div class="header">
+          <img src="{{url_for('static', filename='tick.png')}}" align="middle"  width="60" height="60">        </div>
+
+        <div class="Method1-page">
+          <form action = "http://localhost:5000/" method = "POST">
+            <form class="login-form">
+                <h1>Account Verified</h1>
+            <button>Return Back</button>
+          </form>
+        </div>
+      </div>
+      </header>
+      <footer>
+      </footer>
+    </body>
+</html>
+
