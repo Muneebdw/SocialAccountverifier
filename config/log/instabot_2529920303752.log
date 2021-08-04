@@ -1,0 +1,9 @@
+2021-07-28 23:25:05,495 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-07-28 23:25:05,496 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Muneeb\AppData\Roaming\Python\Python37\site-packages\instabot\bot\bot.py
+2021-07-28 23:25:08,965 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Muneeb\Desktop\Upwork\socialverifier/config/SocialVerifierOTP.checkpoint
+2021-07-28 23:25:17,050 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Muneeb\Desktop\Upwork\socialverifier/config/SocialVerifierOTP.checkpoint
+2021-07-28 23:25:17,051 - instabot version: 0.117.0 (bot) - INFO - Total messages: 1/67
+2021-07-28 23:25:17,052 - instabot version: 0.117.0 (bot) - INFO - Total requests: 33
+2021-07-28 23:25:17,053 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Muneeb\Desktop\Upwork\socialverifier/config/SocialVerifierOTP.checkpoint
+2021-07-28 23:25:17,053 - instabot version: 0.117.0 (bot) - INFO - Total messages: 1/67
+2021-07-28 23:25:17,054 - instabot version: 0.117.0 (bot) - INFO - Total requests: 33

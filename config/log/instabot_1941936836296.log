@@ -29,3 +29,11 @@
 2021-07-28 01:26:10,656 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
 2021-07-28 01:26:11,777 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/6874313734/info/ returned response: <Response [200]>
 2021-07-28 01:26:13,227 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2021-07-28 01:26:16,472 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+2021-07-28 01:26:17,674 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+2021-07-28 01:26:19,041 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=177590cb-3714-4466-b44f-a6808e8fa65b&include_fixed_destinations=true returned response: <Response [200]>
+2021-07-28 01:26:19,958 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+2021-07-28 01:26:21,033 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+2021-07-28 01:26:21,034 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Muneeb\Desktop\Upwork\socialverifier/config/bhalli_r07.checkpoint
+2021-07-28 01:26:22,111 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/Mingwai/usernameinfo/ returned response: <Response [200]>
+2021-07-28 01:26:26,263 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/threads/broadcast/text/ returned response: <Response [200]>

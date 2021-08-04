@@ -1,0 +1,10 @@
+2021-07-28 23:22:43,315 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-07-28 23:22:43,315 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Muneeb\AppData\Roaming\Python\Python37\site-packages\instabot\bot\bot.py
+2021-07-28 23:22:50,047 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Muneeb\Desktop\Upwork\socialverifier/config/SocialVerifierOTP.checkpoint
+2021-07-28 23:22:51,155 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/bhalli_r07/usernameinfo/ returned response: <Response [403]>
+2021-07-28 23:22:51,160 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"login_required","error_title":"You\'ve Been Logged Out","error_body":"Please log back in.","logout_reason":2,"status":"fail"}'
+2021-07-28 23:22:51,160 - instabot version: 0.117.0 (api) - ERROR - Request returns 403 error!
+2021-07-28 23:23:22,505 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Muneeb\Desktop\Upwork\socialverifier/config/SocialVerifierOTP.checkpoint
+2021-07-28 23:23:23,265 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/bhalli_r07/usernameinfo/ returned response: <Response [403]>
+2021-07-28 23:23:23,265 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"login_required","error_title":"You\'ve Been Logged Out","error_body":"Please log back in.","logout_reason":2,"status":"fail"}'
+2021-07-28 23:23:23,266 - instabot version: 0.117.0 (api) - ERROR - Request returns 403 error!

@@ -5,13 +5,16 @@
   </head><div class="form">
     <body>
       <header>
+        <img src="{{url_for('static', filename='logo.png')}}" align="middle"  width="60" height="60">
+        <h1>Verified Users:</h1>
         <div class="header">
-          <img src="{{url_for('static', filename='tick.png')}}" align="middle"  width="60" height="60">        </div>
-
+            {% for users in text %}
+            <h4>{{ users }}</h4>
+          {% endfor %}
+          <br>
         <div class="Method1-page">
           <form action = "http://localhost:5000/" method = "GET">
             <form class="login-form">
-                <h1>Account Verified</h1>
             <button>Return Back</button>
           </form>
         </div>

@@ -3,11 +3,7 @@ import string
 
 
 
-def generateOTP():
-    otp = "INST"
-    otp += ''.join(random.SystemRandom().choice(string.ascii_uppercase + string.digits) for _ in range(5))
-    return otp
+with open("Verified.txt", "r") as file:
+    verified = file.readlines()
 
-
-if __name__ == '__main__':
-    print(generateOTP())
+print(verified)
