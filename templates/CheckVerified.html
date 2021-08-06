@@ -7,19 +7,16 @@
   </head><div class="form">
     <body>
       <header>
-        <p><a href="http://localhost:5000/login">Admin Login</a></p>
 
         <div class="header">
-          <img src="{{url_for('static', filename='logo.png')}}" align="middle"  width="60" height="60">        </div>
 
         <div class="Method1-page">
-          <form action = "http://localhost:5000/Verifyinsta" method = "POST">
+          <form action = "http://localhost:5000/ShowStatus" method = "POST">
             <form class="login-form">
             <p class="message">Insert Instagram Handle </p>    
             <input type="text" id="Username" name="Username" placeholder="Insert Instagram Username"/>
-            <button>Verify</button>
+            <button>Check Verification Status</button>
           </form>
-          <p><a href="http://localhost:5000/CheckVerified">Check if account is verified or not</a></p>
         </div>
       </div>
       </header>

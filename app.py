@@ -1,5 +1,6 @@
 from pickle import FALSE
-from flask import Flask , request , render_template
+import re
+from flask import Flask, render_template, redirect, url_for, request
 from multiprocessing import Pool, cpu_count
 import threading
 from instabot import Bot
@@ -36,7 +37,7 @@ def init():
         start =True
         Login = threading.Thread(target=login, args=(), daemon=True)
         Login.start()
-        Login.join()
+        #Login.join()
 
 
 def checkOTP(insertedotp):
@@ -71,8 +72,33 @@ def root():
         init()
         return render_template('home.html')
 
+@app.route('/CheckVerified',methods=['GET','POST'])
+def checkverific():
+    if request.method =='GET':
+        return render_template('CheckVerified.html')
+
+@app.route('/ShowStatus',methods=['GET','POST'])
+def showstat():
+    if request.method == 'POST':
+        username = request.form['Username']
+        with open('Verified.txt','r') as f:
+            if username in f.read():
+                return render_template('RResult.html')
+            else:
+                return render_template('WResult.html')
 
 
+
+# Route for handling the login page logic
+@app.route('/login', methods=['GET', 'POST'])
+def loginadmin():
+    error = None
+    if request.method == 'POST':
+        if request.form['username'] != 'admin' or request.form['password'] != 'admin':
+            error = 'Invalid Credentials. Please try again.'
+        else:
+            return redirect('Verified')
+    return render_template('login.html', error=error)
 
 @app.route('/Verifyinsta',methods=['GET','POST'])
 def verifyinsta():
@@ -81,7 +107,7 @@ def verifyinsta():
         username = request.form['Username']
         x = threading.Thread(target=sendOTP, args=(username,), daemon=True)
         x.start()
-        x.join()
+        #x.join()
         #print(username)
         return render_template('Instaverifier.html')
 
