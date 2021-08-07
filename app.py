@@ -69,7 +69,7 @@ def sendOTP(username):
 @app.route('/', methods=['GET', 'POST'])
 def root():
     if request.method == 'GET':
-        init()
+        #init()
         return render_template('home.html')
 
 @app.route('/CheckVerified',methods=['GET','POST'])
@@ -135,6 +135,18 @@ def showverified():
         with open("Verified.txt", "r") as file:
             verified = file.readlines()
             return render_template('ShowVerified.html', text = verified)
+    if request.method=='POST':
+        username = request.form['Username']
+        with open("Verified.txt", "r") as f:
+            lines = f.readlines()
+        with open("Verified.txt", "w") as f:
+            for line in lines:
+                if line.strip("\n") != username:
+                    f.write(line)
+        with open("Verified.txt", "r") as file:
+            verified = file.readlines()
+            return render_template('ShowVerified.html', text = verified)
+
 
 
 if __name__ == '__main__':
